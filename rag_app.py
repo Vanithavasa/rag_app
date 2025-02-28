@@ -28,7 +28,7 @@ def query_with_cag(context: str, query: str) -> str:
     return response.text.strip()
 
 # Streamlit app interface
-st.title("RAG Application with Google Gemini - by Vanitha")
+st.title("RAG Application with Google Gemini")
 st.header("Upload a PDF and Ask Your Query")
 
 # Step 1: Ask the user to upload a PDF file
